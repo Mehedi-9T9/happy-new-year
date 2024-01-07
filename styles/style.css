@@ -6,3 +6,50 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    width: 1600px;
+    background-color: #fff;
+}
+
+.header-container {
+    width: 75%;
+    max-width: 1600px;
+    height: 600px;
+    background-image: url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+
+}
+
+.header-content {
+    width: 650px;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.header-content h2 {
+    font-size: 32px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.header-content h1 {
+    text-align: center;
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+/* hero section style end  */
