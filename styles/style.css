@@ -151,3 +151,132 @@ body {
 }
 
 /* Join Section Style End  */
+/* Place Section Start  */
+.place-container {
+    width: 83%;
+    height: 500px;
+    margin: 100px auto;
+
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgb(217, 232, 250) 100%);
+    border-radius: 5px;
+}
+
+.place-content {
+    width: 550px;
+    height: 250px;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.place-content h2 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+
+.place-content span {
+    color: #F00;
+}
+
+.place-content button {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+    background-color: #F00;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+/* Place Section Style End   */
+/* Comming Section Style Start  */
+.comming-container {
+    width: 83%;
+    max-width: 1600px;
+    height: 500px;
+    margin: 0px auto;
+}
+
+.comming-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comming-info {
+    width: 400px;
+}
+
+.part-one h3 {
+    color: #F00;
+
+
+    font-family: Inter;
+    font-size: 24px;
+
+    font-weight: 500;
+
+
+}
+
+.part-one h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.part-one p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.comming-img {
+    border: 15px solid #F00;
+    height: 400px;
+    border-radius: 100%;
+}
+
+.comming-img-content {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.part-three h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+
+}
+
+.part-three p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
