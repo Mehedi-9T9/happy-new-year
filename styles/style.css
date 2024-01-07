@@ -13,13 +13,15 @@ body {
 }
 
 .header-container {
-    width: 75%;
+    width: 83%;
     max-width: 1600px;
     height: 600px;
     background-image: url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
 
 }
 
@@ -52,4 +54,100 @@ body {
 
 }
 
-/* hero section style end  */
+/* Hero Section Style End  */
+/* Offer Section Style Start  */
+.offer-container {}
+
+.offer-content {
+    width: 900px;
+    height: 900px;
+    margin: 100px auto;
+}
+
+.offer-content h2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.offer-content h4 {
+    font-size: 24px;
+    font-family: Inter;
+    color: #F00;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.offer-content h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Offer Section Style End  */
+/* Join Section Start  */
+.join-container {
+    width: 83%;
+    max-width: 1600px;
+    height: 600px;
+    margin: 0px auto;
+
+    border-radius: 5px;
+    background-image: url("../resources/Vectorrr.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.join-content {
+    width: 700px;
+    height: 400px;
+
+    position: relative;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%, -50%);
+}
+
+.join-content h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    margin-bottom: 20px;
+
+
+}
+
+.join-content p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+
+.join-content button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background: none;
+}
+
+/* Join Section Style End  */
