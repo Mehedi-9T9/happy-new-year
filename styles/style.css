@@ -12,17 +12,24 @@ body {
     background-color: #fff;
 }
 
-.header-container {
+/* similar style  */
+.container-box {
     width: 83%;
     max-width: 1600px;
-    height: 600px;
-    background-image: url("../resources/Banner\ Image.png");
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 0 auto;
     border-radius: 5px;
     overflow: hidden;
 
+}
+
+/* similar style  */
+
+
+.header-container {
+    height: 600px;
+    background-image: url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header-content {
@@ -32,7 +39,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .header-content h2 {
@@ -51,7 +57,6 @@ body {
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
-
 }
 
 /* Hero Section Style End  */
@@ -62,11 +67,11 @@ body {
     width: 900px;
     height: 900px;
     margin: 100px auto;
+    text-align: center;
 }
 
 .offer-content h2 {
     color: #F00;
-    text-align: center;
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
@@ -78,14 +83,12 @@ body {
     font-size: 24px;
     font-family: Inter;
     color: #F00;
-    text-align: center;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .offer-content h3 {
     color: #070211;
-    text-align: center;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
@@ -95,27 +98,26 @@ body {
 /* Offer Section Style End  */
 /* Join Section Start  */
 .join-container {
-    width: 83%;
-    max-width: 1600px;
     height: 600px;
-    margin: 0px auto;
-
-    border-radius: 5px;
     background-image: url("../resources/Vectorrr.png");
-    overflow: hidden;
     background-repeat: no-repeat;
     color: white;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .join-content {
     width: 700px;
     height: 400px;
-
     position: relative;
     top: 50%;
     left: 15%;
     transform: translate(-15%, -50%);
+}
+
+.join-img {
+    padding-right: 150px;
 }
 
 .join-content h2 {
@@ -125,19 +127,15 @@ body {
     font-weight: 900;
     line-height: 88px;
     margin-bottom: 20px;
-
-
 }
 
 .join-content p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 20px;
-
 }
 
 .join-content button {
@@ -153,18 +151,14 @@ body {
 /* Join Section Style End  */
 /* Place Section Start  */
 .place-container {
-    width: 83%;
     height: 500px;
     margin: 100px auto;
-
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgb(217, 232, 250) 100%);
-    border-radius: 5px;
 }
 
 .place-content {
     width: 550px;
     height: 250px;
-
     position: relative;
     top: 50%;
     left: 50%;
@@ -173,14 +167,11 @@ body {
 }
 
 .place-content h2 {
-    text-align: center;
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
-    text-transform: capitalize;
     margin-bottom: 10px;
 }
-
 
 .place-content span {
     color: #F00;
@@ -188,14 +179,9 @@ body {
 
 .place-content button {
     color: #FFF;
-
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
-
     font-weight: 700;
-
-    text-transform: uppercase;
     background-color: #F00;
     padding: 15px 30px;
     border: none;
@@ -207,10 +193,7 @@ body {
 /* Place Section Style End   */
 /* Comming Section Style Start  */
 .comming-container {
-    width: 83%;
-    max-width: 1600px;
     height: 500px;
-    margin: 0px auto;
 }
 
 .comming-content {
@@ -225,14 +208,9 @@ body {
 
 .part-one h3 {
     color: #F00;
-
-
     font-family: Inter;
     font-size: 24px;
-
     font-weight: 500;
-
-
 }
 
 .part-one h1 {
@@ -240,7 +218,6 @@ body {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    text-transform: capitalize;
 }
 
 .part-one p {
@@ -248,8 +225,6 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    line-height: 32px;
-
 }
 
 .comming-img {
@@ -277,6 +252,7 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 50px;
 
 
 }
@@ -285,11 +261,7 @@ body {
 /* Holiday Section Start  */
 .holiday-container {
     width: 82%;
-    max-width: 1600px;
-
-    margin: 0px auto;
-    border-radius: 5px;
-    overflow: hidden;
+    !important
 }
 
 .holiday-content {
@@ -297,11 +269,11 @@ body {
     height: 250px;
     margin: 0px auto;
     padding: 50px 0px;
+    text-align: center;
 }
 
 .holiday-content h3 {
     color: #070211;
-    text-align: center;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
@@ -309,12 +281,10 @@ body {
 }
 
 .holiday-content h1 {
-    text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 20px;
-
 }
 
 .holiday-content span {
@@ -324,7 +294,7 @@ body {
 
 .holiday-content p {
     color: rgba(7, 2, 17, 0.60);
-    text-align: center;
+    /* text-align: center; */
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
@@ -343,7 +313,6 @@ body {
 .holiday-offer {
     width: 250px;
     height: 250px;
-
     position: relative;
     top: 12%;
     left: 56%;
@@ -352,10 +321,7 @@ body {
 /* Holiday Section Style End  */
 /* Portfolio Section Style Start  */
 .portfolio-container {
-    width: 83%;
-    max-width: 1600px;
     height: 1200px;
-    margin: 0px auto;
 }
 
 .portfolio-content {}
@@ -363,7 +329,6 @@ body {
 .portfolio-text {
     padding: 20px 10px;
     margin: 50px 0px;
-
 }
 
 .portfolio-text h3 {
@@ -379,8 +344,6 @@ body {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-
-
 }
 
 .portfolio-text p {
@@ -388,8 +351,6 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-
-
 }
 
 .portfolio-img-container {
@@ -408,18 +369,14 @@ body {
 
 .img-item:hover {
     transform: scale(1.1);
-
 }
 
 /* Portfolio Section Style End  */
 /* Subscribe Section Style Start   */
 .subscribe-container {
-    width: 83%;
-    max-width: 1600px;
     height: 630px;
-    margin: 0px auto;
-    background: gray;
-    border-radius: 5px;
+    margin: 100px auto;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgb(217, 232, 250) 100%);
 }
 
 .subscribe-content {
@@ -434,33 +391,22 @@ body {
 
 .subscribe-content h2 {
     color: #070211;
-
-    text-align: center;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
     margin-bottom: 20px;
 }
 
 .subscribe-content p {
     color: rgba(7, 2, 17, 0.60);
-
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 32px;
     margin-bottom: 20px;
-    /* 160% */
 }
 
 .subscribe-content input[type=email] {
     padding: 25px 30px;
-
     border: none;
     border-radius: 30px 0px 0px 30px;
     font-size: 18px;
@@ -471,7 +417,6 @@ body {
 
 .subscribe-content input[type=submit] {
     padding: 25px 30px;
-
     border: none;
     border-radius: 0px 30px 30px 0px;
     font-size: 18px;
@@ -482,3 +427,55 @@ body {
 
 
 /* Subscribe Section Style End   */
+/* Footer style Start  */
+footer {
+    background-color: black;
+    color: #FFF;
+    margin-top: 100px;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer-header p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-part-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-part-two img {
+    display: block;
+}
+
+.footer-icons {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-dev {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer-dev p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
