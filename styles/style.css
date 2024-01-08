@@ -412,3 +412,73 @@ body {
 }
 
 /* Portfolio Section Style End  */
+/* Subscribe Section Style Start   */
+.subscribe-container {
+    width: 83%;
+    max-width: 1600px;
+    height: 630px;
+    margin: 0px auto;
+    background: gray;
+    border-radius: 5px;
+}
+
+.subscribe-content {
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subscribe-content h2 {
+    color: #070211;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.subscribe-content p {
+    color: rgba(7, 2, 17, 0.60);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+    /* 160% */
+}
+
+.subscribe-content input[type=email] {
+    padding: 25px 30px;
+
+    border: none;
+    border-radius: 30px 0px 0px 30px;
+    font-size: 18px;
+    background-color: #fff;
+    color: black;
+
+}
+
+.subscribe-content input[type=submit] {
+    padding: 25px 30px;
+
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    font-size: 18px;
+    background-color: #F00;
+    color: #070211;
+    margin-left: -5px;
+}
+
+
+/* Subscribe Section Style End   */
