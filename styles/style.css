@@ -280,3 +280,73 @@ body {
 
 
 }
+
+/* Comming Section End  */
+/* Holiday Section Start  */
+.holiday-container {
+    width: 82%;
+    max-width: 1600px;
+
+    margin: 0px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.holiday-content {
+    width: 1100px;
+    height: 250px;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.holiday-content h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.holiday-content h1 {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.holiday-content span {
+    color: #F00;
+
+}
+
+.holiday-content p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.holiday-img {
+    width: 100%;
+    height: 660px;
+    background-image: url("../resources/Group 75.png"), url("../resources/Rectangle 2.png"), url("../resources/Rectangle 1.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom, top right;
+}
+
+.holiday-offer {
+    width: 250px;
+    height: 250px;
+
+    position: relative;
+    top: 12%;
+    left: 56%;
+}
+
+/* Holiday Section Style End  */
